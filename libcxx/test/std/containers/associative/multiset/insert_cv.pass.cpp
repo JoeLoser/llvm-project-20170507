@@ -38,7 +38,7 @@ void do_insert_cv_test()
     assert(*r == 1);
 
     const VT v3(3);
-    r = m.insert(3);
+    r = m.insert(v3);
     assert(r == prev(m.end()));
     assert(m.size() == 3);
     assert(*r == 3);
